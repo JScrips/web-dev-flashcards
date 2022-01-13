@@ -1,0 +1,35 @@
+const Cards = {
+  deck: ["Software Engineer Deck", "Software Engineer Deck (answer)"],
+  question: [
+    "Q1:How do you write a comment in HTML format?",
+    "Q2:What is the <!DOCTYPE html> tag for? ",
+    "Q3: What is the semantic meaning of the <a href='#'> tag?",
+    "Q4: What is the semantic meaning of the <abbr title='#'> Tag? ",
+    "Q5: What is the semantic meaning of the <address> Tag?",
+    "Q6: What is the semantic meaning of the <area> Tag?",
+    "Q7: What is the semantic meaning of the <audio> tag?",
+    "Q8: What is the semantic meaning of the <b> tag?",
+    "Q9: What is the semantic meaning of the <base> tag?",
+    "Q10: What is the semantic meaning of the <bdi> tag?",
+    "Q11: What is the semantic meaning of the <bdo> tag?",
+    "Q12: What is the semantic meaning of the <blockquote> tag?",
+    "Q13: What is the semantic meaning of the <body> tag?",
+  ],
+  backCard: [
+    "A1: <!-- [comment] --> is the correct way to write a comment in HTML format",
+    "A2: This tag is used to define the document type. This example shows that the document type is an HTML document. ",
+    "A3: The tag is used to indicate a link",
+    "A4: The abbr tag is used to define an abbreviated word. the title should contain the full name of the abbreviated word.",
+    "A5: The address tag is used to indicate the contact information for the author/owner of an article.",
+    "A6: The area tag defines an area inside an image map. This tag is always inside of a <map> tag.",
+    "A7: This tag defines and embeds sound content into the document.",
+    "A8: The b tag defines bold text. <b> This text will be bold </b>",
+    "A9: The base tag is used to specify a default URL and a default target for all links on a page.",
+    "A10: The bdi tag isolates usernames from the surrounding text-direction settings. So if usernames are in a different language, they will not mess up the code",
+    "A11: This tag overrides the current text direction.so instead of going left to right as normal <bdo dir='rtl'> This text will go right to left.</bdo> ",
+    "A12: The blockquote tag is used to make a section that is quoted from another source. ",
+    "A13: The body tag is used to define the document's body.",
+  ],
+};
+
+export default Cards;
